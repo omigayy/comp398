@@ -12,17 +12,18 @@ using namespace std;
 #define 398HW01_LINKLIST_H  // define Guard
 
 class linklist{
-	public:
-
+	public: 
+	
+		// all function names start with a capital letter
 		linklist(); //CTOR
 
-		void addNode(node a);//add a node to the list
+		void AddNode(node a);//add a node to the list
 
-		void populateList(string in_file);// populate the list from a flat file database // avoid mixed case
+		void PopulateList(string in_file);// populate the list from a flat file database // avoid mixed case
 
-		node* search(string item);// search for a value in the list	
+		node* Search(string item);// search for a value in the list	
 
-		void display(); // display in a plain text
+		void Display(); // display in a plain text
 		
 	private:
 		
