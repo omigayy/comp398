@@ -8,11 +8,11 @@
 
 int main(){
 
-	linklist testCTOR; //clear names
+	linklist test_ctor; //clear names
 	cout << "pass CTOR\n";
 
-	node aNode;
-	a.addNode(aNode);
+	node a_node;
+	a.addNode(a_node); // avoid mixed case
 	cout << "pass addNode\n";
 
 	a.populateList("flat.csv");
