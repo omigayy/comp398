@@ -5,8 +5,8 @@
 using namespace std;
 
 // node.h -- these are the NODES on the list
-#ifndef NODE
-#define NODE
+#ifndef 398HW01_NODE_H
+#define 398HW01_NODE_H //define guard
 
 // NODE for ONE elephant
 typedef
@@ -18,4 +18,4 @@ struct node{
 	node *next;
 };
 
-#endif
+#endif //398HW01_NODE_H
