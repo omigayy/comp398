@@ -1,3 +1,7 @@
+// former declaration of node
+// programmer: Yingying Wu
+// dates: 9/2/2014 adapt according to google style guide
+
 #include "stdafx.h"
 #include <iostream>
 #include <string>
