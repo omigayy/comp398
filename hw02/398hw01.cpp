@@ -8,11 +8,11 @@
 
 int main(){
 
-	linklist a;
+	linklist testCTOR;
 	cout << "pass CTOR\n";
 
-	node n;
-	a.addNode(n);
+	node aNode;
+	a.addNode(aNode);
 	cout << "pass addNode\n";
 
 	a.populateList("flat.csv");
