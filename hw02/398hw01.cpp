@@ -8,7 +8,7 @@
 
 int main(){
 
-	linklist testCTOR;
+	linklist testCTOR; //clear names
 	cout << "pass CTOR\n";
 
 	node aNode;
