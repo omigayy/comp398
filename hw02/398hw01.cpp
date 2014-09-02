@@ -12,17 +12,17 @@ int main(){
 	cout << "pass CTOR\n";
 
 	node a_node;
-	a.addNode(a_node); // avoid mixed case
+	a.AddNode(a_node); // avoid mixed case
 	cout << "pass addNode\n";
 
-	a.populateList("flat.csv");
+	a.PopulateList("flat.csv");
 	cout << "pass populateList\n";
 	// can't pass this test, thus can't finish the latter ones.
 
-	a.search("David Cobb");
+	a.Search("David Cobb");
 	cout << "pass search\n";
 
-	a.display();
+	a.Display();
 	cout << "pass display\n";
 
 
