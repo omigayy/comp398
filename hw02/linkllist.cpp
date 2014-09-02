@@ -18,11 +18,11 @@ void linklist::addNode(node a){
 }
 //ADD
 
-void linklist::populateList(string inFile){
+void linklist::populateList(string in_file){
 
 	ifstream fin;
 	fin.clear();
-	fin.open(inFile.c_str());		// try to open the file	
+	fin.open(in_file.c_str());		// try to open the file	
 	if (fin.fail())				// but did the attempt fail?
 	{
 
