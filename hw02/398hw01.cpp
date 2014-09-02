@@ -1,5 +1,7 @@
 // 398hw01.cpp : Defines the entry point for the console application.
 // the driver program
+// programmer: Yingying Wu
+// dates: 9/2/2014 adapt according to google style guide
 
 #include "stdafx.h"
 #include <iostream>
