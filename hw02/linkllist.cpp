@@ -1,3 +1,7 @@
+// class linklist: construct a linklist that can add nodes, read from a file, search and display
+// programmer: Yingying Wu
+// dates: 9/2/2014 adapt according to google style guide
+
 #include "stdafx.h"
 #include "linklist.h"
 #include <iostream>
