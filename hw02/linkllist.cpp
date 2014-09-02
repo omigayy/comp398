@@ -12,13 +12,13 @@ linklist::linklist(){
 }
 //CTOR
 
-void linklist::addNode(node a){
+void linklist::AddNode(node a){
 	tail->next = &a;
 	tail = tail->next;
 }
 //ADD
 
-void linklist::populateList(string in_file){
+void linklist::PopulateList(string in_file){
 
 	ifstream fin;
 	fin.clear();
@@ -45,7 +45,7 @@ void linklist::populateList(string in_file){
 }
 // can work line by line, but can't finish the whole function. Don't know why.
 
-node* linklist::search(string item){
+node* linklist::Search(string item){
 	node* temp = head -> next;
 	while (temp->representative != item && temp->year != item && temp->party != item)
 		temp = temp->next;
@@ -53,7 +53,7 @@ node* linklist::search(string item){
 }
 // search, untested
 
-void linklist::display(){
+void linklist::Display(){
 	string outFile = "plainText.txt";
 	ofstream fout;                  // stream to connect to output file
 
