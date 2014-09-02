@@ -4,11 +4,11 @@
 #include <string>
 #include <fstream>
 
-#include "node.h"
+#include "node.h" // Forward Declaration
 
 using namespace std;
 
-#ifndef 398HW01_LINKLIST_H
+#ifndef 398HW01_LINKLIST_H  // naming rule
 #define 398HW01_LINKLIST_H  // define Guard
 
 class linklist{
@@ -26,7 +26,7 @@ class linklist{
 		
 	private:
 		
-		node *head, *tail;
+		node *head, *tail;  // clear names
 };
 
 #endif //398HW01_LINKLIST_H
