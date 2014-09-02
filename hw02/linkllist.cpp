@@ -40,7 +40,7 @@ void linklist::PopulateList(string in_file){
 		node *add = new node;
 		getline(fin, add->representative, ',');
 		getline(fin, add->year, ',');
-		getline(fin, add->party, ',');
+		//getline(fin, add->party, ',');
 		add->next = 0;
 		this->addNode(*add);
 	}
@@ -72,7 +72,7 @@ void linklist::Display(){
 	node *temp = head -> next;
 
 	while (temp->next != 0)
-		fout << temp->representative << temp->year << temp->party << endl;
-	fout << temp->representative << temp->year << temp->party << endl;
+		fout << temp->representative << temp->year/*<< temp->party */<< endl;
+	fout << temp->representative << temp->year /*<< temp->party */<< endl;
 
 }// display, untested
