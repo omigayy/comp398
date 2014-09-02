@@ -16,6 +16,6 @@ struct node{
 	string year;
 	string party;
 	node *next;
-};
+}; // clear names
 
 #endif //398HW01_NODE_H
