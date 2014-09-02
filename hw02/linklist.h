@@ -7,8 +7,8 @@
 
 using namespace std;
 
-#ifndef LINKLIST
-#define LINKLIST
+#ifndef 398HW01_LINKLIST_H
+#define 398HW01_LINKLIST_H  // define Guard
 
 class linklist{
 	public:
@@ -28,4 +28,4 @@ class linklist{
 		node *head, *tail;
 };
 
-#endif
+#endif //398HW01_LINKLIST_H
