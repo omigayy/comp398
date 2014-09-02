@@ -18,7 +18,7 @@ class linklist{
 
 		void addNode(node a);//add a node to the list
 
-		void populateList(string inFile);// populate the list from a flat file database
+		void populateList(string in_file);// populate the list from a flat file database // avoid mixed case
 
 		node* search(string item);// search for a value in the list	
 
