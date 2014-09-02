@@ -10,8 +10,8 @@
 
 using namespace std;
 
-#ifndef 398HW01_LINKLIST_H  // naming rule
-#define 398HW01_LINKLIST_H  // define Guard
+#ifndef LINKLIST
+#define LINKLIST  // define Guard
 
 class linklist{
 	public: 
@@ -32,4 +32,4 @@ class linklist{
 		node *head, *tail;  // clear names
 };
 
-#endif //398HW01_LINKLIST_H
+#endif 
