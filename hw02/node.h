@@ -22,4 +22,4 @@ struct node{
 	node *next;
 }; // clear names
 
-#endif //398HW01_NODE_H
+#endif //HW01_NODE_H
