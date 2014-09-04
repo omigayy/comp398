@@ -12,9 +12,6 @@ using namespace std;
 #ifndef HW01_NODE_H
 #define HW01_NODE_H //define guard
 
-// NODE for ONE elephant
-typedef
-
 struct node{
 	string representative;
 	string year;
