@@ -2,35 +2,29 @@
     "features": [
       { "type": "Feature",
         "geometry":{ "type": "Point", "coordinates": [-71.18579506874084, 41.96612757631881]},
-        "properties": {"Getra Stops": "Wheaton Collge"},
-        "marker-symbol": "bus"
+        "properties": {"Getra Stops": "Wheaton Collge"}
         },
  { "type": "Feature",
         "geometry":{ "type": "Point", "coordinates":  [-71.20951116085052, 41.97975138480024]},
-        "properties": {"Getra Stops": "Great Woods Plaza"},
-        "marker-size": "medium"
+        "properties": {"Getra Stops": "Great Woods Plaza"}
         },
  { "type": "Feature",
         "geometry":{ "type": "Point", "coordinates":  [-71.22659683227539, 42.01033849637934]},
-        "properties": {"Getra Stops": "Mansfield Crossing"},
-        "marker-size": "medium"
+        "properties": {"Getra Stops": "Mansfield Crossing"}
         },
  { "type": "Feature",
         "geometry":{ "type": "Point", "coordinates":  [-71.2197196483612, 42.0328149533197]},
-        "properties": {"Getra Stops": "Mansfield Station"},
-        "marker-size": "large"
+        "properties": {"Getra Stops": "Mansfield Station"}
         },
 
          { "type": "Feature",
         "geometry":{ "type": "Point", "coordinates":  [-71.20316505432129, 41.97885810958832]},
-        "properties": {"Food": "Subway"},
-        "marker-size": "small"
+        "properties": {"Food": "Subway"}
         },
 
         { "type": "Feature",
         "geometry":{ "type": "Point", "coordinates":  [-71.21706962585449, 42.02626412566175]},
-        "properties": {"Food": "Taco Bell"},
-        "marker-size": "small"
+        "properties": {"Food": "Taco Bell"}
         },
 
 
