@@ -17,6 +17,11 @@
         "properties": {"Getra Stops": "Mansfield Station"}
         },
 
+ { "type": "Feature",
+        "geometry":{ "type": "Point", "coordinates":  [-71.20316505432129, 41.97885810958832]},
+        "properties": {"Food": "Subway"}
+        },
+
 
 
 
