@@ -17,15 +17,18 @@
         "properties": {"Getra Stops": "Mansfield Station"}
         },
 
-         { "type": "Feature",
+        { "type": "Feature",
         "geometry":{ "type": "Point", "coordinates":  [-71.20316505432129, 41.97885810958832]},
         "properties": {"Food": "Subway"}
+        "marker-size": "small",
         },
 
         { "type": "Feature",
         "geometry":{ "type": "Point", "coordinates":  [-71.21706962585449, 42.02626412566175]},
         "properties": {"Food": "Taco Bell"}
+        "marker-size": "small",
         },
+
 
 
 
