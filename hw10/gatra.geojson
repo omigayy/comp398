@@ -2,7 +2,7 @@
     "features": [
       { "type": "Feature",
         "geometry":{ "type": "Point", "coordinates": [-71.18579506874084, 41.96612757631881]},
-        "properties": {"Getra Stops": "Wheaton Collge"}
+        "properties": {"marker-symbol": "bus","Getra Stops": "Wheaton Collge"}
         },
  { "type": "Feature",
         "geometry":{ "type": "Point", "coordinates":  [-71.20951116085052, 41.97975138480024]},
