@@ -1,9 +1,7 @@
 HW13
 ========
 
- homepage
-+ omigayy.github.io
-+ This is [an example](omigayy.github.io "Title") inline link.
 
- portfolio page
-+ omigayy.github.io/portfolio
++ This is [my home page](omigayy.github.io "home") inline link.
+
++ This is [my portfolio page](omigayy.github.io/portfolio "portfolio") inline link.
