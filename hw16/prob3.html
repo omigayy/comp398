@@ -1,0 +1,45 @@
+<!DOCTYPE html><html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>prob3</title>
+    <style>
+      table{
+        border-collapse: collapse;
+      }
+      td{
+        border: 1px solid black;
+        width: 200px;
+        text-align: center;
+      }
+      table tr:nth-child(odd) td{
+        background-color: #fff
+      }
+      table tr:nth-child(even) td{
+        background-color: #ddd
+      }
+    </style>
+  </head>
+  <body> 
+    <table id="myTable">
+      <tr>
+        <td> n </td>
+        <td>lazy caterer(n)</td>
+      </tr>
+    </table>
+
+    <script>
+      var input = prompt("Please enter an integer");
+
+      for (var i = 0; i <= input; i++) {
+        var output = i*(i+1)/2+1;
+        var table = document.getElementById("myTable");
+        var row = table.insertRow(myTable.rows.length);
+        var cell1 = row.insertCell(0);
+        var cell2 = row.insertCell(1);
+        cell1.innerHTML = i;
+        cell2.innerHTML = output;
+      };
+    </script>
+
+  </body>
+  </html>
